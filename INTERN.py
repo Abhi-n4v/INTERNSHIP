@@ -5,4 +5,4 @@ st.title("take the input")
 name=st.text_input("Enter your name")
 
 if st.button("subjects:"):
-  st.write(f"print the name: (name)")
+  st.write(f"print the name: {name}")
